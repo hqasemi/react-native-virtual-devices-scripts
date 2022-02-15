@@ -33,7 +33,9 @@ Run all available Android emulators, install expo apk on them and then connect t
 ```shell
 cd Android
 chmod +x *.sh
-./run_available_emulators.sh && ./install_expo_on_all_connected_devices.sh && ./connect_all_devices_to_expo_server.sh <expo-server-addr>
+./run_available_emulators.sh && \\
+./install_expo_on_all_connected_devices.sh && \\
+./connect_all_devices_to_expo_server.sh <expo-server-addr>
 ```
 
 ## How to shutdown devices:
